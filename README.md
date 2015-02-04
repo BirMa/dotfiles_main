@@ -5,9 +5,9 @@ by BirMa
 <https://github.com/BirMa/dotfiles_main>
 
 
-This is my collection of dotfiles.
+This is a collection of most of my dotfiles.
 ----------------------------------
 
-* All dotfiles from this repo reside within a single folder on my filesystem.
-* They are all symlinked to the respective location where they are expected from applications.
+* All dotfiles from this repo reside within a single folder on the filesystem.
+* They are all symlinked to the respective locations where they are expected by applications.
 * You totally should not spend your time reading this.
