@@ -11,8 +11,8 @@ endif
 let g:colors_name = 'darkbone'
 
 "default colors
-hi Normal	guifg=#a0a0c0 guibg=#000000
-hi NonText	guifg=#606080 guibg=#000000 gui=none 
+hi Normal	guifg=#a0a0c0 guibg=#00000a
+hi NonText	guifg=#606080 guibg=#00000a gui=none 
 hi SpecialKey	guifg=#404060
 " was guifg=#0 guibg=#a0a0c0 <-- for every corsor guibg
 hi Cursor	guifg=#000000 guibg=#e3d5ff
