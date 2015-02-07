@@ -2,7 +2,7 @@ README
 ======
 
 by BirMa
-<https://github.com/BirMa/dotfiles_main>
+<https://github.com/BirMa/dotfiles_sys>
 
 
 This is a collection of most of my dotfiles.
