@@ -27,6 +27,9 @@ fi
 # bash completion for sudoers
 complete -cf sudo
 
+# pkgfile stuff, to tell me where a missing binary can be found
+source /usr/share/doc/pkgfile/command-not-found.bash
+
 # format BOLD,...;FGColor[;BGColor]m
 #        0-3?    ;30-36   ;40-47
 __PS1pathBlue__="\[\033[01;34m"
@@ -109,3 +112,6 @@ alias _iftop='sudo $(which iftop) -i '
 
 # better when immediately read by players
 alias youtube-dl='youtube-dl --no-part'
+
+# jump ad end of pager
+alias journalctl='journalctl -e'
