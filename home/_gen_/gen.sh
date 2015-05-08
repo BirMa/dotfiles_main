@@ -1,5 +1,5 @@
 #! /bin/bash
-# bash related configuration
+# bash related configuration (only relevant for interactive sessions)
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
