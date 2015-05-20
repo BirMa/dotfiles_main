@@ -170,8 +170,9 @@ load-module module-filter-apply
 ## Global equalizer
 #load-module module-equalizer-sink
 #
-## Equalizer gui needs dbus
-#load-module module-dbus-protocol
+
+# Equalizer gui and others need dbus
+load-module module-dbus-protocol
 
 # ladspa based equalizers and guis need this
 #load-module module-ladspa-sink
