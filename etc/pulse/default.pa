@@ -166,20 +166,19 @@ load-module module-filter-apply
 
 ## MY additions:
 
-## Now using some ladspa-sink based equalizer...
-## Global equalizer
-#load-module module-equalizer-sink
-#
-
 # Equalizer gui and others need dbus
 load-module module-dbus-protocol
+
+# Global equalizer
+load-module module-equalizer-sink
 
 # ladspa based equalizers and guis need this
 #load-module module-ladspa-sink
 
-## Some compression if audio keeps screaming at me
+# Some compressor/limiter in case audio keeps screaming at me
 load-module module-ladspa-sink sink_name=ladspa_output.fast_lookahead_limiter_1913.fastLookaheadLimiter                                                                                plugin=fast_lookahead_limiter_1913 label=fastLookaheadLimiter control=14,-15,0.8
 load-module module-ladspa-sink sink_name=ladspa_output.dyson_compress_1403.dysonCompress                         master=ladspa_output.fast_lookahead_limiter_1913.fastLookaheadLimiter plugin=dyson_compress_1403         label=dysonCompress        control=0,1,0.5,0.99
 
-# automatically switch to newly-connected devices
-#load-module module-switch-on-connect # TODO: check if this causes the mic jack nonsense
+# TODO: Figure out what this module does.
+#module-switch-on-port-available 
+
