@@ -90,7 +90,7 @@ alias sudo='$(which sudo) '
 alias ps='$(which ps) -eo pid,cmd'
 
 # more useful netstat
-alias netstat='$(which netstat) -anlWp'
+#alias netstat='$(which netstat) -anlWp'
 
 # more useful jobs
 alias jobs='jobs -l'
