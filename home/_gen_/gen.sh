@@ -1,4 +1,6 @@
 #! /bin/bash
+# TODO: Move this to /opt/.
+# TODO: Merge this with other files.
 # bash related configuration (only relevant for interactive sessions)
 
 # If not running interactively, don't do anything
@@ -6,6 +8,8 @@
 
 # yaourt keeps asking me about this
 export EDITOR="vim"
+
+export BROWSER="firefox"
 
 # append to the history file, don't overwrite it
 shopt -s histappend
